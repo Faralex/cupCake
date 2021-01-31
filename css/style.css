@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 83px 0 153px;
+  height: 100vh;
+
+  background-color: #171416;
+  position: relative;
+}
+
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 97px;
+}
+
+.navigation li:not(:first-child) {
+  margin-left: 75px;
+}
+
+.navigation li:nth-child(2) a {
+  margin-left: -38px;
+}
+.navigation li:last-child {
+  margin-right: 98px;
+}
+
+.navigation .active {
+  color: #fff;
+  background-color: #d75a6e;
+  padding: 5px 37px 1px 32px;
+  border-radius: 32px;
+}
+
+.navigation li a {
+  color: #d75a6e;
+  font-size: 27px;
+  line-height: 54px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.main {
+  max-width: 1543px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__title {
+  color: #d75a6e;
+  font-size: 133px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  line-height: 122px;
+  max-width: 650px;
+}
+
+.main__text {
+  color: #fbdae5;
+  font-size: 27px;
+  letter-spacing: 0.5px;
+  line-height: 39px;
+  max-width: 650px;
+  margin-bottom: 28px;
+  margin-left: 14px;
+}
+
+.main__btn a {
+  color: #fbdae5;
+  font-size: 48px;
+  line-height: 63px;
+  background-color: #d75a6e;
+  padding: 7px 46px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.main__btn {
+  margin-left: 12px;
+  margin-bottom: 93px;
+}
+
+.main__img {
+  position: absolute;
+  background-color: #b74c5b;
+  border-radius: 50%;
+  padding: 36px;
+  top: 208px;
+  right: 175px;
+}
+
+.social {
+  display: flex;
+  margin-left: 117px;
+}
+
+.social__link {
+  color: #171517;
+  margin-right: 38px;
+  background-color: #d75a6e;
+  border-radius: 100%;
+  width: 48px;
+  height: 45px;
+  background-position: center center;
+  font-size: 25px;
+}
+
+.social-instagram {
+padding-left: 13px;
+padding-top: 10px;
+  /* padding-left: 10px;
+  padding-top: 40px; */
+}
+
+.social-facebook {
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.social-twitter {
+  padding: 10px 0px 0px 13px;
+  background-position: center center;
+}
