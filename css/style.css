@@ -68,11 +68,15 @@ body {
   border-radius: 32px;
 }
 
-.header__list li a {
+.header__list a {
   color: #d75a6e;
   font-size: 27px;
   letter-spacing: 0.8px;
   text-transform: uppercase;
+}
+
+.header__list a:hover {
+opacity:0.8;
 }
 
 .content {
@@ -117,6 +121,11 @@ body {
   padding: 7px 46px;
   border-radius: 50px;
   font-weight: bold;
+  border:1px solid transparent;
+}
+
+.main__btn a:hover {
+  border: 1px solid #fff;
 }
 
 .main__btn {
@@ -147,6 +156,11 @@ body {
   height: 45px;
   background-position: center center;
   font-size: 25px;
+  transition: 0.5s;
+}
+
+.social__link:hover {
+  color:#fff;
 }
 
 .social-instagram {
