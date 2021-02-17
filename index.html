@@ -8,31 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@400;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
+    <header class='header'>
         <div class="container">
-            <div class="header">
-                <div class="logo">
+            <div class="header__body">
+                <a href='#' class="header__logo">
                     <img src="./img/logo.png" alt="">
+                </a>
+                <div class="header__burger">
+                    <span></span>
                 </div>
-                <nav>
-                    <ul class="navigation">
-                        <li><a class='active' href="#">Home</a></li>
-                        <li><a href="#">Upcoming Treks</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                <nav class='header__menu'>
+                    <ul class="header__list">
+                        <li><a class='sel header__a' href="#">Home</a></li>
+                        <li><a class='header__a' href="#">Upcoming Treks</a></li>
+                        <li><a class='header__a' href="#">About</a></li>
+                        <li><a class='header__a' href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
+    
     <section class="main">
-        <div class="main__content">
+        <div class="container">
             <div class="main__title">DELICIOUS CUPCAKE</div>
             <div class="main__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
             <div class="main__btn">
@@ -45,6 +49,7 @@
     </section>
     <footer>
         <div class="footer">
+            <div class="container">
             <nav>
                 <ul class="social">
                     <li><a class='social__link social-instagram' href="#" target='_blank'><i class="fab fa-instagram"></i></a></li>
@@ -53,7 +58,10 @@
                 </ul>
             </nav>
         </div>
+        </div>
     </footer>
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
